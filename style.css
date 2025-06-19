@@ -1,0 +1,69 @@
+.Container1{
+      background-color:#E0E0E0;
+      padding-bottom: 50px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    gap: 25px;
+}
+#logoCursus {
+    outline: none;
+    width: 330px ;
+    height: 127px ;
+    max-width: 100%;
+    height: auto;
+}
+
+.slogan{
+    font-family: 'raleway', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+}
+
+.buttonContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+
+.connecter {
+  background-color: #33AFDE;
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+  padding: 12px 100px;
+  color: white; 
+  font-family: 'raleway', sans-serif;
+  font-weight: 600;
+}
+
+.connecter:hover {
+  background-color: #2a8fbf;
+}
+
+.créer {
+background-color: #5FCF80;
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+  padding: 12px 100px;
+  color: white; 
+  font-family: 'raleway', sans-serif;
+  font-weight: 600;
+}
+
+.créer:hover {
+  background-color: #4aa96a;
+}
+
