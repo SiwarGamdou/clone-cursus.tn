@@ -80,15 +80,39 @@ background-color: #5FCF80;
 
 /*Container2 is the signing up steps*/
 
-.step {
-  display: flex;
-  align-items: flex-start;
-  gap: 15px;
-  width: 45%;
-  margin: 20px;
+.container2 {
+  padding: 100px;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
 }
 
-.icon {
-  font-size: 50px;
-  color: #33AFDE; /* Or the appropriate shade */
+.step1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
 }
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 10px;
+  font-family: 'raleway', sans-serif;
+}
+
+.row1 {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.row2 {
+  font-weight: 400;
+  font-size: 15px
+}
+
+
