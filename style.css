@@ -239,8 +239,6 @@ background-color: #5FCF80;
   background-color: white;
   padding: 20px;
   border-radius: 8px;
-  display: inline-block; 
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .table-header{
