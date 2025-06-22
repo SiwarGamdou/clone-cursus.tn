@@ -35,7 +35,7 @@
 .buttonContainer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    gap: 15px;
+    gap: 10px;
     justify-content: center;
     align-items: center;
     padding: 40px;
@@ -47,7 +47,7 @@
   border: none;
   border-radius: 3px;
   height: 35px;
-  width: 400px;
+  width: 290px;
   padding: 2px 20px;
   color: white; 
   font-family: 'raleway', sans-serif;
@@ -66,7 +66,7 @@ background-color: #5FCF80;
   border: none;
   border-radius: 3px;
   height: 35px;
-  width: 400px;
+  width: 290px;
   padding: 8px 20px;
   color: white; 
   font-family: 'raleway', sans-serif;
@@ -83,21 +83,22 @@ background-color: #5FCF80;
 /* process is the signing up steps and Container2  contains the title and the grid */
 .container2 {
   background-color:#F0F2F5;
-  padding: 50px;
-  gap: 20px;
+  padding-top: 50px; padding-bottom: 70px;
+  padding-left: 20px; padding-right: 20px; 
+  
+  gap: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .process {
-  padding-left: 90px; padding-right: 90px; padding-bottom: 50px;
   display: grid;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 100px;
+  gap: 80px;
 }
 
 .title1 {
@@ -106,7 +107,7 @@ background-color: #5FCF80;
   font-weight: 700;
   font-size: 30px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .step{
@@ -126,7 +127,9 @@ background-color: #5FCF80;
 }
 
 .row1 {
-  font-weight: 700;
+  font-family: 'raleway', sans-serif;
+  color: #3B3D3F;
+  font-weight: 600;
   font-size: 25px;
 }
 
@@ -137,3 +140,30 @@ background-color: #5FCF80;
 
 /* Container3 contains the start now button and headers and using terms */
 
+.Container3 {
+  background-color: #2AA79C;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  gap: 20px;
+}
+
+.headers2{
+  display: flex;
+  flex-direction: column;
+  font-family: 'raleway', sans-serif;
+  color: #F1F6F9;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.title2 {
+  font-family: 'raleway', sans-serif;
+  color: #F1F6F9;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
