@@ -170,7 +170,8 @@ background-color: #5FCF80;
 }
 
 .buttonContainer2{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
   flex-direction: row;
   width: 100%;
   align-items: center;
@@ -215,3 +216,105 @@ background-color: #5FCF80;
 
 /* Container4 contains a table ( dates limites pour postuler) */
 
+.container4 {
+  background-color: #E0E0E0;
+  font-family: 'Raleway', sans-serif;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center;
+  gap: 20px;
+}
+
+.container4 span {
+  text-align: center;
+  color: #778D9B;
+  font-weight: bolder;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  display: inline-block; 
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.table-header{
+  background-color: #D9E3E8;
+  font-weight:bolder;
+  color: #5d7685;
+  padding: 10px;
+  align-items: center;
+  justify-content: center; 
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  color: #778D9B;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+}
+
+/* Alternate row colors */
+tbody tr:nth-child(odd) {
+  background-color: #f7f9fa;
+}
+
+tbody tr:nth-child(even) {
+  background-color: transparent;
+}
+
+.green {
+  color: #00c853;
+  font-weight: 600;
+}
+
+.red {
+  color: #d32f2f;
+  font-weight: 600;
+}
+
+.check {
+  text-align: center;
+  font-size: 18px;
+  color: #4caf50;
+}
+
+/*Pagination 1,2,3 */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 8px;
+}
+
+.pagination button {
+  background-color: #e0e7ec;
+  border: none;
+  padding: 6px 12px;
+  font-weight: 600;
+  color: #455a64;
+  border-radius: 4px;
+}
+
+.pagination button:hover {
+  background-color: #cfd8dc;
+}
+
+.pagination button.active {
+  background-color: #1e88e5;
+  color: white;
+}
