@@ -142,17 +142,18 @@ background-color: #5FCF80;
 
 .Container3 {
   background-color: #2AA79C;
-  padding: 50px;
+  padding: 70px;
   display: flex;
   flex-direction: column;
   align-items: center; 
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
 }
 
 .headers2{
   display: flex;
   flex-direction: column;
+  gap: 30px;
   font-family: 'raleway', sans-serif;
   color: #F1F6F9;
   font-size: 20px;
@@ -166,4 +167,48 @@ background-color: #5FCF80;
   font-weight: 700;
   font-size: 30px;
   text-align: center;
+}
+
+.buttonContainer2{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+ }
+ 
+ .compte{
+  background-color: #F7941E;
+  border: none;
+  border-radius: 3px;
+  height: 35px;
+  width: 150px;
+
+  color: #F1F6F9; 
+  font-family: 'raleway', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center; 
+}
+
+.compte:hover {
+  background-color: #e68919; 
+}
+
+ .conditions{
+  background-color: #D0525D;
+  border: none;
+  border-radius: 3px;
+  height: 35px;
+  width: 200px;
+  color: #F1F6F9; 
+  font-family: 'raleway', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center; 
+}
+
+.conditions:hover {
+  background-color: #bb4752; 
 }
