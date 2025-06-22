@@ -318,3 +318,62 @@ tbody tr:nth-child(even) {
   background-color: #1e88e5;
   color: white;
 }
+
+/* Container5 universities and logos */
+/* Container6 contact */
+
+.Container6 {
+  background-color: #673AB7;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  gap: 30px;
+}
+
+.headers3{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-family: 'raleway', sans-serif;
+  color: #F1F6F9;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.title3 {
+  font-family: 'raleway', sans-serif;
+  color: #F1F6F9;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+
+.buttonContainer3{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+ }
+ 
+ .contactez-nous{
+  background-color: #F7941E;
+  border: none;
+  border-radius: 3px;
+  height: 35px;
+  width: 150px;
+
+  color: #F1F6F9; 
+  font-family: 'raleway', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center; 
+}
+
+.contactez-nous:hover {
+  background-color: #e68919; 
+}
