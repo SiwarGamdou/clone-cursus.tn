@@ -322,7 +322,7 @@ tbody tr:nth-child(even) {
 .Container5 {
   background-color: #94A7B7;
   padding: 70px;
-  display: flex;
+  display: grid;
   flex-direction: column;
 }
 
@@ -339,7 +339,7 @@ tbody tr:nth-child(even) {
   padding: 70px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+  gap: 40px;
 }
 
 .card {
