@@ -10,16 +10,16 @@ This project is a **frontend clone** of the [Cursus.tn](https://cursus.tn) websi
 - ✅ clear HTML5 structure
 - ✅ Custom CSS styling to match the original look
 - ✅ Organized and readable code
-- ✅ Responsive design 
+- ✅ Responsive design
 
 ---
 
 ## 🛠️ Technologies Used
 
-- HTML5  
-- CSS3  
-- Google Fonts   
-- Icons 
+- HTML5
+- CSS3
+- Google Fonts
+- Icons
 
 ---
 
@@ -49,4 +49,3 @@ This clone is built for **educational purposes only**.
 [LinkedIn](https://www.linkedin.com/in/siwargamdou/)
 
 ---
-
