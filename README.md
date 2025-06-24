@@ -26,11 +26,12 @@ This project is a **frontend clone** of the [Cursus.tn](https://cursus.tn) websi
 ## 📁 Project Structure
 
 cursus-clone/
-├── index.html
-├── style.css
-├── assets/
-│ └── images/
-└── README.md
+
+- index.html
+- style.css
+- assets/
+  - images/
+- README.md
 
 ---
 
