@@ -551,7 +551,7 @@ hr {
     font-weight: bold;
   }
 
-  .parent-container,
+.parent-container,
 .Container1,
 .container2,
 .Container3,
@@ -574,11 +574,77 @@ hr {
   gap: 1rem;
 }
 
+/* center the buttons for more responsiveness */
 .buttonContainer2{
   display: flex;
   flex-direction: column;
   align-items: center;
 
 }
+
+/* Shrink general font sizes */
+  body,
+  .slogan,
+  .row1,
+  .row2,
+  .title1,
+  .title2,
+  .title3,
+  .title4,
+  .title5,
+  .description,
+  .comment,
+  .user-name,
+  .headers2,
+  .headers4,
+  .connecter,
+  .créer,
+  .compte,
+  .conditions,
+  .contactez-nous,
+  table {
+    font-size: 14px;
+  }
+
+  .title1,
+  .title2,
+  .title3,
+  .title4,
+  .title5 {
+    font-size: 18px;
+  }
+
+  .row1 {
+    font-size: 16px;
+  }
+
+  .row2,
+  .comment {
+    font-size: 13px;
+  }
+
+  .description {
+    font-size: 11px;
+  }
+
+  .user-name {
+    font-size: 12px;
+  }
+
+  .connecter,
+  .créer,
+  .compte,
+  .conditions,
+  .contactez-nous {
+    font-size: 12px;
+  }
+
+  .container4 span {
+    font-size: 18px;
+  }
+
+  .table-container {
+    font-size: 12px;
+  }
 
 }
