@@ -577,6 +577,30 @@ hr {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
+}  
+
+/* changing display pf process */
+.process {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
 }
 
 /* center the buttons for more responsiveness */
@@ -588,68 +612,59 @@ hr {
 }
 
 /* Shrink general font sizes */
-  body,
-  .slogan,
-  .row1,
-  .row2,
-  .title1,
-  .title2,
-  .title3,
-  .title4,
-  .title5,
-  .description,
-  .comment,
-  .user-name,
-  .headers2,
-  .headers4,
-  .connecter,
-  .créer,
-  .compte,
-  .conditions,
-  .contactez-nous,
-  table {
-    font-size: 14px;
-  }
+body,
+.slogan,
+.row1,
+.row2,
+.description,
+.comment,
+.user-name,
+.headers2,
+.headers4,
+table {
+  font-size: 14px;
+}
 
-  .title1,
-  .title2,
-  .title3,
-  .title4,
-  .title5 {
-    font-size: 18px;
-  }
+/* Headings */
+.title1,
+.title2,
+.title3,
+.title4,
+.title5,
+.container4 span {
+  font-size: 18px;
+}
 
-  .row1 {
-    font-size: 16px;
-  }
+/* Section titles */
+.row1 {
+  font-size: 18px;
+}
 
-  .row2,
-  .comment {
-    font-size: 13px;
-  }
+.row2,
+.comment {
+  font-size: 14px;
+}
 
-  .description {
-    font-size: 11px;
-  }
+.description {
+  font-size: 11px;
+}
 
-  .user-name {
-    font-size: 12px;
-  }
+.user-name {
+  font-size: 14px;
+}
 
-  .connecter,
-  .créer,
-  .compte,
-  .conditions,
-  .contactez-nous {
-    font-size: 12px;
-  }
+/* Buttons */
+.connecter,
+.créer,
+.compte,
+.conditions,
+.contactez-nous {
+  font-size: 12px;
+}
 
-  .container4 span {
-    font-size: 18px;
-  }
+.table-container {
+  font-size: 12px;
+}
 
-  .table-container {
-    font-size: 12px;
-  }
 
 }
