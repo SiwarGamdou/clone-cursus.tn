@@ -5,7 +5,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    
+    width: 100%;
 }
 
 .parent-container {
@@ -361,25 +361,30 @@ tbody tr:nth-child(even) {
   font-weight: 700;
   font-size: 30px;
   text-align: center;
-  padding: 20px;
-  margin-bottom: 50px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 .universities {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1050px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: center;
+  align-items: center;
   gap: 50px;
   padding: 0 20px 40px;
   box-sizing: border-box;
 }
 
+
 .card {
   background-color: white;
   border-radius: 2px;
   padding: 20px;
-  width: 100%;
+  width: 90%;
   height: auto;
   min-height: 200px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
